@@ -1,0 +1,33 @@
+{
+  "name": "sunpack",
+  "version": "0.0.2",
+  "description": "Sunpack: like snowpack but far worse. Convert/move npm dependencies so they work in the browser.",
+  "main": "index.js",
+  "bin": {
+    "sunpack": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cli": "^1.0.1",
+    "glob": "^7.1.6",
+    "ncp": "^2.0.0",
+    "terser": "^5.5.1",
+    "tinyify": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Darkle1/sunpack.git"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Darkle1/sunpack/issues"
+  },
+  "homepage": "https://gitlab.com/Darkle1/sunpack#readme"
+}
